@@ -10,7 +10,7 @@ def join_ingredients(src)
   while row_count<src.count do
     element_count=0
     while element_count<src[row_count].count do
-      new_array[elememt_count]=["I love #{src[element_count][0]} and #{src[element_count][1]} on my pizza"]
+      new_array[elememt_count]=["I love"+src[element_count][0]+" and"+ src[element_count][1]+" on my pizza"]
       element_count += 1
     end
     row_count += 1
