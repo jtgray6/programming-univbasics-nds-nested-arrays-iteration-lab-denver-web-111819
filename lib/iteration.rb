@@ -23,11 +23,9 @@ def find_greater_pair(src)
   row=0
   final=[]
   while row<src.count do
-    if src[0]>src[1] do
-      src[0]
+    if src[0]>src[1]
       final[row]=src[0]
     else
-      src[1]
       final[row]=src[1]
     end
   end
