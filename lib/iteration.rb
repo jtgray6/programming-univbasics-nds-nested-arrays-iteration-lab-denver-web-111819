@@ -28,6 +28,7 @@ def find_greater_pair(src)
     else
       final[row]=src[1]
     end
+    row += 1
   end
   final
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
