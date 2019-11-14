@@ -22,9 +22,10 @@ end
 def find_greater_pair(src)
   row=0
   final=[]
-  while row<src.count[row] do
-    if src[0]>src[1]
-      final[row]=src[0]
+  while row<src.count do
+    element=0
+    if src[row][element]>src[row][element+1]
+      final[row]=src[row][element]
     else
       final[row]=src[1]
     end
