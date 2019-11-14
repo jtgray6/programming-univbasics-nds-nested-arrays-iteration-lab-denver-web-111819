@@ -10,7 +10,7 @@ def join_ingredients(src)
   final=[]
   while row_count<src.count do
     element_count=0
-    while element_count<(src.count/2) do
+    while element_count<src.count do
       final[element_count]="I love "+src[element_count][0]+" and "+ src[element_count][1]+" on my pizza"
       element_count += 1
     end
