@@ -27,7 +27,7 @@ def find_greater_pair(src)
     if src[row][element]>src[row][element+1]
       final[row]=src[row][element]
     else
-      final[row]=src[1]
+      final[row]=src[row][element+1]
     end
     row += 1
   end
